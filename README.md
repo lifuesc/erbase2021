@@ -13,7 +13,7 @@
     <img src="./img/banner.png" alt="Logo" width="100%">
   </a>
 
-  <h2 align="center">Blockchain e Contratos Inteligentes para Aplicações em IoT, uma Abordagem Prática</h2>
+  <h2 align="center">Minicurso 1 - Blockchain e IoT integrados a Sistemas Web</h2>
 
 </p>
 
@@ -28,27 +28,27 @@ A Internet das Coisas agrega dispositivos capazes de capturar informações e in
 
 <h3> Índice dos tutoriais </h3>
 
-1. [Tutoriais](https://github.com/lifuesc/jai2021/tree/main/tutoriais/)
-   - [Instalação VsCode](https://github.com/lifuesc/jai2021/tree/main/tutoriais/vscode/instalacao.md)
-   - [Instalação NodeJs](https://github.com/lifuesc/jai2021/tree/main/tutoriais/node/instalacao.md)
-   - [Instalação MetaMask e primeiro acesso](https://github.com/lifuesc/jai2021/tree/main/tutoriais/metamask/instalacao.md)
-   - [Adicionando Ether na rede rinkebay](https://github.com/lifuesc/jai2021/tree/main/tutoriais/metamask/adicionandoEtherRinkebay.md)
-   - [Criando novas contas no MetaMask](https://github.com/lifuesc/jai2021/tree/main/tutoriais/metamask/criandoContas.md)
-   - [Instalando o React](https://github.com/lifuesc/jai2021/tree/main/tutoriais/reactjs/instalacao.md)
-   - [Criando projeto React](https://github.com/lifuesc/jai2021/tree/main/tutoriais/reactjs/criandoProjeto.md)
-2. [Práticas](https://github.com/lifuesc/jai2021/tree/main/Praticas)
-   - [API](https://github.com/lifuesc/jai2021/tree/main/api)
-   - [Deploy ](https://github.com/lifuesc/jai2021/tree/main/deploy)
-   - [DApp ReactJs](https://github.com/lifuesc/jai2021/tree/main/frontend)
-3. [Slides](https://github.com/lifuesc/jai2021/tree/main/minicurso%20JAI2021.pdf)
+1. [Tutoriais](https://github.com/lifuesc/erbase2021/tree/main/tutoriais/)
+   - [Instalação VsCode](https://github.com/lifuesc/erbase2021/tree/main/tutoriais/vscode/instalacao.md)
+   - [Instalação NodeJs](https://github.com/lifuesc/erbase2021/tree/main/tutoriais/node/instalacao.md)
+   - [Instalação MetaMask e primeiro acesso](https://github.com/lifuesc/erbase2021/tree/main/tutoriais/metamask/instalacao.md)
+   - [Adicionando Ether na rede rinkebay](https://github.com/lifuesc/erbase2021/tree/main/tutoriais/metamask/adicionandoEtherRinkebay.md)
+   - [Criando novas contas no MetaMask](https://github.com/lifuesc/erbase2021/tree/main/tutoriais/metamask/criandoContas.md)
+   - [Instalando o React](https://github.com/lifuesc/erbase2021/tree/main/tutoriais/reactjs/instalacao.md)
+   - [Criando projeto React](https://github.com/lifuesc/erbase2021/tree/main/tutoriais/reactjs/criandoProjeto.md)
+2. [Práticas](https://github.com/lifuesc/erbase2021/tree/main/Praticas)
+   - [API](https://github.com/lifuesc/erbase2021/tree/main/api)
+   - [Deploy ](https://github.com/lifuesc/erbase2021/tree/main/deploy)
+   - [DApp ReactJs](https://github.com/lifuesc/erbase2021/tree/main/frontend)
+3. [Slides](https://github.com/lifuesc/erbase2021/tree/main/minicurso%20erbase2021.pdf)
 
-[contributors-shield]: https://img.shields.io/github/contributors/lifuesc/jai2021.svg?style=for-the-badge
-[contributors-url]: https://github.com/lifuesc/jai2021/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/lifuesc/jai2021.svg?style=for-the-badge
-[forks-url]: https://github.com/lifuesc/jai2021/network/members
-[stars-shield]: https://img.shields.io/github/stars/lifuesc/jai2021.svg?style=for-the-badge
-[stars-url]: https://github.com/lifuesc/jai2021/stargazers
-[issues-shield]: https://img.shields.io/github/issues/lifuesc/jai2021.svg?style=for-the-badge
-[issues-url]: https://github.com/lifuesc/jai2021/issues
-[license-shield]: https://img.shields.io/github/license/lifuesc/jai2021.svg?style=for-the-badge
-[license-url]: https://github.com/lifuesc/jai2021/blob/main/LICENSE
+[contributors-shield]: https://img.shields.io/github/contributors/lifuesc/erbase2021.svg?style=for-the-badge
+[contributors-url]: https://github.com/lifuesc/erbase2021/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/lifuesc/erbase2021.svg?style=for-the-badge
+[forks-url]: https://github.com/lifuesc/erbase2021/network/members
+[stars-shield]: https://img.shields.io/github/stars/lifuesc/erbase2021.svg?style=for-the-badge
+[stars-url]: https://github.com/lifuesc/erbase2021/stargazers
+[issues-shield]: https://img.shields.io/github/issues/lifuesc/erbase2021.svg?style=for-the-badge
+[issues-url]: https://github.com/lifuesc/erbase2021/issues
+[license-shield]: https://img.shields.io/github/license/lifuesc/erbase2021.svg?style=for-the-badge
+[license-url]: https://github.com/lifuesc/erbase2021/blob/main/LICENSE
