@@ -7,7 +7,7 @@
 <br />
 <p align="center">
   <a href="https://github.com/lifuesc/erbase2021/">
-    <img src="./img/logo2.png" alt="Logo" width="100">
+    <img src="./img/logo2.png" alt="Logo" width="400">
     <img src="./img/logo.png" alt="Logo" width="400">
     <br/>
     <img src="./img/banner.png" alt="Logo" width="100%">
