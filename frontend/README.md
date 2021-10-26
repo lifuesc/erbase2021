@@ -1,4 +1,4 @@
-# Interface contrato sensor
+# DApp contrato vacina
 
 ## Instalação
 
