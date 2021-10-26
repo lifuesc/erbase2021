@@ -2,26 +2,25 @@ const path = require("path");
 const fs = require("fs");
 const solc = require("solc");
 
-const sensorFile = "Sensor.sol";
+// ! Alterar aqui
+// ! ---------------------------------------------------
+// Nome da classe do contrato
+const contractName = "Vacina";
+// Nome do arquivo do contrato baseado no nome da classe
+const contractFileName = `Vacina.sol`;
+// ! ---------------------------------------------------
 
-// Pega o diretório do arquivo do sensor
-const SensorPath = path.resolve(__dirname, "contracts", sensorFile);
-
-const datas = [
-  {
-    file: sensorFile,
-    name: "Sensor",
-  },
-];
-
-const sourceSensor = fs.readFileSync(SensorPath, "utf8");
+// Pega o diretório do arquivo do contrato
+const ContractPath = path.resolve(__dirname, "contracts", contractFileName);
+// Conteudo do contrato convertido
+const sourceContract = fs.readFileSync(ContractPath, "utf8");
 
 // Configuração do SOLC
-var input = {
+const input = {
   language: "Solidity",
   sources: {
-    [sensorFile]: {
-      content: sourceSensor,
+    [contractFileName]: {
+      content: sourceContract,
     },
   },
   settings: {
@@ -36,15 +35,13 @@ var input = {
 let contratoCompilado = JSON.parse(solc.compile(JSON.stringify(input)));
 
 // * Descomentar para imprimir ABI
-// datas.map((data) =>
-//   console.log(
-//     JSON.stringify(
-//       contratoCompilado.contracts[data.file][data.name].abi,
-//       null,
-//       4
-//     )
-//   )
-// );
+console.log(
+  JSON.stringify(
+    contratoCompilado.contracts[contractFileName][contractName].abi,
+    null,
+    4
+  )
+);
 
 // Exporta dados do contrato
-module.exports = contratoCompilado.contracts[sensorFile].Sensor;
+module.exports = contratoCompilado.contracts[contractFileName][contractName];

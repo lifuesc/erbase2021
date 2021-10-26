@@ -5,9 +5,8 @@ const { abi, evm } = require("./compile");
 
 // Configuração do provider do infura
 const provider = new HDWalletProvider({
-  mnemonic: { phrase: process.env.mnemonic },
-  providerOrUrl:
-    "https://rinkeby.infura.io/v3/f1b4efb5cfb34c188aa9434cc7097fa5",
+  mnemonic: { phrase: process.env.MNEMONIC },
+  providerOrUrl: process.env.RINKEBY_INFURA,
 });
 
 const web3 = new Web3(provider);
@@ -28,13 +27,8 @@ const deploy = async () => {
     let contract = await new web3.eth.Contract(abi)
       .deploy({
         data: evm.bytecode.object,
-        arguments: [
-          "dht11",
-          [
-            ["temperatura", 2, 0, 0, 0],
-            ["umidade", 2, 0, 0, 0],
-          ],
-        ],
+        // Nome/tipo da vacina, Origem, Destino, Duração, temperatura máxima, temperatura minima
+        arguments: ["Vacina Covid Pzifer", "EUA", "Brasil", "12h", 40, 30],
       })
       .encodeABI();
     // Configura um objeto para transação
@@ -56,7 +50,7 @@ const deploy = async () => {
     console.log("Contract deployed to", result.contractAddress);
   } catch (error) {
     // Mostra caso ocorra algum erro
-    console.log(error);
+    console.log("error", error);
   }
   // Para de rodar o provider
   provider.engine.stop();
